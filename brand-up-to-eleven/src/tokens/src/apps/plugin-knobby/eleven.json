@@ -1,0 +1,12 @@
+{
+  "knobby-plugin": {
+    "volume-i-knob": {
+      "$value": "11",
+      "$type": "number"
+    },
+    "volume-ii-knob": {
+      "$value": "11",
+      "$type": "number"
+    }
+  }
+}

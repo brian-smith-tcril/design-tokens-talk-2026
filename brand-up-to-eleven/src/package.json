@@ -1,0 +1,24 @@
+{
+  "name": "brand-up-to-eleven",
+  "version": "0.0.1",
+  "description": "A brand package to be used with plugin-knobby to turn the knobs up to 11.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian-smith-tcril/design-tokens-talk-2026.git",
+    "directory": "brand-up-to-eleven"
+  },
+  "author": "Brian Smith",
+  "license": "MIT",
+  "homepage": "https://github.com/brian-smith-tcril/design-tokens-talk-2026/tree/main/brand-up-to-eleven#readme",
+  "scripts": {
+    "build-tokens": "paragon build-tokens --source ./tokens/src --build-dir ./paragon/css --source-tokens-only --exclude-core",
+    "build-scss": "paragon build-scss --themesPath ./paragon/css/themes --defaultThemeVariants light --excludeCore",
+    "build": "make build",
+    "build:watch": "nodemon --ignore dist -x \"make build\"",
+    "paragon:help": "paragon help"
+  },
+  "devDependencies": {
+    "@openedx/paragon": "^23",
+    "nodemon": "^3.1.4"
+  }
+}
