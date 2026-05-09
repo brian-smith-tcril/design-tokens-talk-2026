@@ -27,7 +27,13 @@ The plugin's React component is identical between these two frames. Only the val
 
 ## How to apply it
 
-Add `PARAGON_THEME_URLS` to the `config` object in the `env.config.jsx` you used to install [`plugin-knobby/`](../plugin-knobby/). This loads the custom properties at runtime from [jsDelivr](https://www.jsdelivr.com/):
+This loads the custom properties at runtime from [jsDelivr](https://www.jsdelivr.com/), pulling in new values for the two `--knobby-plugin-volume-*-knob` tokens.
+
+The `var(--knobby-plugin-volume-*-knob, 4)` calls then resolve to `11` instead of falling back to the default `4`.
+
+### To the `frontend-app-learner-dashboard` MFE with [`plugin-knobby/`](../plugin-knobby/) installed
+
+Add `PARAGON_THEME_URLS` to the `config` object in the `env.config.jsx` you used to install [`plugin-knobby/`](../plugin-knobby/):
 
 ```jsx
 PARAGON_THEME_URLS: {
@@ -42,4 +48,19 @@ PARAGON_THEME_URLS: {
 },
 ```
 
-The `brandOverride` URL pulls in new values for the two `--knobby-plugin-volume-*-knob` tokens. The plugin's `var(--knobby-plugin-volume-*-knob, 4)` calls then resolve to `11` instead of falling back to the default `4`.
+### To a `frontend-base` site with `knobbyApp` from [`plugin-knobby/`](../plugin-knobby/) installed
+
+Add the following `theme` object to your `siteConfig`:
+
+```tsx
+theme: {
+  core: {
+    url: 'https://cdn.jsdelivr.net/npm/@openedx/paragon@latest/dist/light.min.css',
+  },
+  variants: {
+    light: {
+      url: 'https://cdn.jsdelivr.net/gh/brian-smith-tcril/design-tokens-talk-2026@f0ae2502f6bb2c0dbcaf02b23a2596480a91ed16/brand-up-to-eleven/dist/light.min.css',
+    },
+  },
+},
+```
