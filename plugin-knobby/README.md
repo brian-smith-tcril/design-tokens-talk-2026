@@ -8,17 +8,17 @@ This plugin exists as a concrete artifact for the talk *Design Tokens: Plugin Sl
 
 Without the plugin — just the dashboard's default sidebar widget (`LookingForChallengeWidget`):
 
-![Sidebar without Knobby](./images/no-plugin.png)
+![Sidebar without Knobby](../images/no-plugin.png)
 
 With the plugin installed — Knobby renders above the default widget, both knobs at their default value `4`:
 
-![Sidebar with Knobby at defaults](./images/defaults.png)
+![Sidebar with Knobby at defaults](../images/defaults.png)
 
 With a brand package re-targeting both tokens to `11`:
 
-![Sidebar with Knobby themed up to eleven](./images/themed.png)
+![Sidebar with Knobby themed up to eleven](../images/themed.png)
 
-The brand package only changes the values of the two CSS custom properties this plugin ships — the plugin itself is the same component in all three frames. See [`up-to-eleven-brand/`](../up-to-eleven-brand/) for the brand side of that story.
+The brand package only changes the values of the two CSS custom properties this plugin ships — the plugin itself is the same component in all three frames. See [`brand-up-to-eleven/`](../brand-up-to-eleven/) for the brand side of that story.
 
 ## Tokens shipped
 
