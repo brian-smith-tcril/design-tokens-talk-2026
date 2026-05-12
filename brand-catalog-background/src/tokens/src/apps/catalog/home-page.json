@@ -1,0 +1,12 @@
+{
+  "catalog": {
+    "home-page": {
+      "banner": {
+        "background-color": {
+          "$value": "#b16b2c",
+          "$type": "color"
+        }
+      }
+    }
+  }
+}
