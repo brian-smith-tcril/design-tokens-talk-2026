@@ -1,0 +1,24 @@
+{
+  "name": "brand-catalog-background",
+  "version": "0.0.1",
+  "description": "A brand package to be used with frontend-app-catalog to override the home page banner's background color.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian-smith-tcril/design-tokens-talk-2026.git",
+    "directory": "brand-catalog-background"
+  },
+  "author": "Brian Smith",
+  "license": "MIT",
+  "homepage": "https://github.com/brian-smith-tcril/design-tokens-talk-2026/tree/main/brand-catalog-background#readme",
+  "scripts": {
+    "build-tokens": "paragon build-tokens --source ./tokens/src --build-dir ./paragon/css --source-tokens-only --exclude-core",
+    "build-scss": "paragon build-scss --themesPath ./paragon/css/themes --defaultThemeVariants light --excludeCore",
+    "build": "make build",
+    "build:watch": "nodemon --ignore dist -x \"make build\"",
+    "paragon:help": "paragon help"
+  },
+  "devDependencies": {
+    "@openedx/paragon": "^23",
+    "nodemon": "^3.1.4"
+  }
+}
