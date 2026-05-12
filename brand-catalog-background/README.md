@@ -38,7 +38,7 @@ PARAGON_THEME_URLS: {
     light: {
       urls: {
         default: 'https://cdn.jsdelivr.net/npm/@openedx/paragon@latest/dist/light.min.css',
-        brandOverride: 'https://cdn.jsdelivr.net/gh/brian-smith-tcril/design-tokens-talk-2026@<commit-sha>/brand-catalog-background/dist/light.min.css',
+        brandOverride: 'https://cdn.jsdelivr.net/gh/brian-smith-tcril/design-tokens-talk-2026@31f2e6117655e0904c828add1c8ac52460f2a475/brand-catalog-background/dist/light.min.css',
       },
     },
   },
