@@ -54,9 +54,6 @@ Add the following `theme` object to your `siteConfig`:
 
 ```tsx
 theme: {
-  core: {
-    url: 'https://cdn.jsdelivr.net/npm/@openedx/paragon@latest/dist/light.min.css',
-  },
   variants: {
     light: {
       url: 'https://cdn.jsdelivr.net/gh/brian-smith-tcril/design-tokens-talk-2026@f0ae2502f6bb2c0dbcaf02b23a2596480a91ed16/brand-up-to-eleven/dist/light.min.css',
