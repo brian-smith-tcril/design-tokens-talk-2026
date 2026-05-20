@@ -4,7 +4,7 @@ Slides and example artifacts for the talk *Design Tokens: Plugin Slots but for y
 
 Presented by Brian Smith (Axim Collaborative), Kshitij Sobti (OpenCraft), and Kaustav Banerjee (OpenCraft) at [Open edX Conference 2026](https://openedx.org/blog/join-us-for-the-open-edx-conference-2026/).
 
-- 📑 Slides: [`slides/`](./slides/) (PDF coming once it's finalized)
+- 📑 Slides: [`slides/slides.pdf`](./slides/slides.pdf)
 - 🎥 Recording: *coming after the conference posts the video*
 
 ## Topics covered
