@@ -2,7 +2,7 @@
 
 Slides for the talk *Design Tokens: Plugin Slots but for your CSS*.
 
-*PDF coming once it's finalized.*
+📑 [`slides.pdf`](./slides.pdf)
 
 ## Acknowledgements
 
